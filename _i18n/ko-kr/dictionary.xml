@@ -1212,7 +1212,6 @@
   <block id="ea3d51fb2b16acb7cb260f25bc8965b1" category="summary">Astra Trident는 NetApp에서 관리하는 오픈 소스 스토리지 공급자 및 오케스트레이터입니다. Docker 및 Kubernetes에서 관리하는 컨테이너식 애플리케이션을 위한 스토리지 볼륨을 생성할 수 있습니다.</block>
   <block id="91cba8fa9749855921b347b0cf808b76" category="doc">Astra Trident 21.10 문서</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
-  <block id="c59ae8d7beeb519a23478ab048af482c" category="paragraph"><block ref="c59ae8d7beeb519a23478ab048af482c" category="inline-link-macro-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="0172b29a9f5d94dc62ee592a98183f3b" category="paragraph">각 릴리스의 공지 파일에서 Astra Trident용 NetApp 소프트웨어에 사용된 타사 저작권 및 라이센스를 검토할 수 있습니다<block ref="4a3c8c5a408c6db1c44c04391a8a0a2f" category="inline-link-rx"></block>.</block>
   <block id="e20acf6d4b1275a0b5d2eb01c845adff" category="summary">NetApp은 다양한 방법으로 Trident를 지원합니다. Slack 채널과 같은 다양한 무료 셀프 지원 옵션을 24x7 이용할 수 있습니다.</block>
@@ -3119,4 +3118,15 @@
   <block id="e08bfc79c5202517b3814efd6e82fb2c" category="sidebar">Trident 업그레이드 또는 제거</block>
   <block id="d293f031e5664526b25f3a65012401b7" category="cell">'IPv6'</block>
   <block id="997cff957213b9212a22d7cac2b4275d" category="list-text">생성된 인증서를 사용하여 인증을 테스트합니다. ONTAP 관리 LIF&gt; 및 &lt;SVM 이름&gt;을 관리 LIF IP 및 SVM 이름으로 바꿉니다. LIF의 서비스 정책이 'default-data-management'로 설정되어 있는지 확인해야 합니다.</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">상표</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, NetApp 로고, NetApp 상표 페이지에 나열된 마크는 NetApp Inc.의 상표입니다. 기타 회사 및 제품 이름은 해당 소유자의 상표일 수 있습니다.</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">특허</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp 소유 특허 목록은 다음 사이트에서 확인할 수 있습니다.</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
 </blocks>

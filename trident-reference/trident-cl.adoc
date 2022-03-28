@@ -6,6 +6,7 @@ summary: Astra Trident는 몇 가지 명령줄 옵션을 공개하고 특정 포
 ---
 = 명령줄 옵션
 :hardbreaks:
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
