@@ -16,6 +16,7 @@ summary: 제공된 샘플 구성을 사용하여 Astra Trident 설치를 위한 
 
 NOTE: Cloud Volumes Service for AWS는 100GB 미만의 볼륨을 지원하지 않습니다. Trident는 더 작은 볼륨을 요청하는 경우 100GB 볼륨을 자동으로 생성합니다.
 
+.필요한 것
 를 구성하고 사용합니다 https://cloud.netapp.com/cloud-volumes-service-for-aws?utm_source=NetAppTrident_ReadTheDocs&utm_campaign=Trident["AWS 환경을 위한 Cloud Volumes Service"^] 백엔드, 다음이 필요합니다.
 
 * NetApp CVS로 구성된 AWS 계정
