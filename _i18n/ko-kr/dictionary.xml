@@ -590,7 +590,6 @@
   <block id="65840df7365892d2abe1280cb6cdb1d2" category="paragraph">다음은 몇 가지 모범 사례 문서입니다. 를 검색합니다<block ref="4caccef7312f2c398bfbb419629c1a78" category="inline-link-rx"></block> 최신 버전의 경우.</block>
   <block id="d911b17f4f4cdcca62a04ad77aa9403d" category="paragraph">* ONTAP *</block>
   <block id="f9dd52d280693dc59e53b6e1fb7bd801" category="inline-link">NFS Best Practice and Implementation Guide를 참조하십시오</block>
-  <block id="40bb23d54df7f59219c18f15a346d9e5" category="list-text"><block ref="40bb23d54df7f59219c18f15a346d9e5" category="inline-link-rx"></block></block>
   <block id="a76193f5d9397d9c49ca283a20ccf649" category="inline-link">SAN 관리 가이드를 참조하십시오</block>
   <block id="5bc9b097037d45aff954bf9bd632d4a4" category="list-text"><block ref="c745f55eb0c9991966e63f0608541bb1" category="inline-link-rx"></block> (iSCSI의 경우)</block>
   <block id="5ca34d6ffc2a555b689542e3fbeeb7af" category="inline-link">RHEL용 iSCSI Express 구성</block>
@@ -608,15 +607,11 @@
   <block id="a66f5507c8942de388ae63c7a177f7ab" category="list-text"><block ref="a66f5507c8942de388ae63c7a177f7ab" category="inline-link-rx"></block></block>
   <block id="9aaca8cfd79770bc4944ccc477e37141" category="paragraph">* 응용 프로그램 모범 사례 정보 *</block>
   <block id="27a5e02bc2fadee43ace94805739a0c8" category="inline-link">ONTAP 기반 MySQL의 모범 사례</block>
-  <block id="40d2eaf9adabe99a601c57eabf49e4d3" category="list-text"><block ref="40d2eaf9adabe99a601c57eabf49e4d3" category="inline-link-rx"></block></block>
   <block id="17efdd7d210511985714be299d595292" category="inline-link">SolidFire 기반 MySQL의 모범 사례</block>
   <block id="d03b53d8ec563c37e16ee8c900a75b96" category="list-text"><block ref="d03b53d8ec563c37e16ee8c900a75b96" category="inline-link-rx"></block></block>
   <block id="3aefe1a041af945f1fe8673bf775057b" category="inline-link">NetApp SolidFire 및 Cassandra</block>
-  <block id="7e2b19f6f6bd1332efe1f7a698984670" category="list-text"><block ref="7e2b19f6f6bd1332efe1f7a698984670" category="inline-link-rx"></block></block>
   <block id="6e580111d3a8c12cdcd9522a4d3484c6" category="inline-link">SolidFire에 대한 Oracle 모범 사례</block>
-  <block id="6db96715cefe9c4950ef722865494128" category="list-text"><block ref="6db96715cefe9c4950ef722865494128" category="inline-link-rx"></block></block>
   <block id="6448cf37496207be126495e5b05851de" category="inline-link">SolidFire에 대한 PostgreSQL Best Practice</block>
-  <block id="eb2c92a9d2d39fa7191d6e84d5c33bb5" category="list-text"><block ref="eb2c92a9d2d39fa7191d6e84d5c33bb5" category="inline-link-rx"></block></block>
   <block id="b062996d6ca590abe798d3db75561f79" category="paragraph">모든 애플리케이션에 구체적인 지침이 있는 것은 아니며 NetApp 팀과 함께 을 사용하는 것이 중요합니다<block ref="4caccef7312f2c398bfbb419629c1a78" category="inline-link-rx"></block> 최신 설명서를 참조하십시오.</block>
   <block id="d03f8f06d8317baa619ceba8c71e0be3" category="summary">NetApp 스토리지 플랫폼이 제공하는 데이터 보호 및 복구 성능 옵션에 대해 알아보십시오. Astra Trident는 이러한 기능 중 일부를 활용할 수 있는 볼륨을 프로비저닝할 수 있습니다. 지속성 요구사항이 있는 각 애플리케이션에 대해 완전한 데이터 보호 및 복구 전략을 가져야 합니다.</block>
   <block id="7e7397a7b79323762c61941fc0e6b5f9" category="doc">데이터 보호</block>
@@ -1383,7 +1378,6 @@
   <block id="5224919a4ae5ccf610fb0ee74e4e7a94" category="inline-link">Trident AutoSupport를 누릅니다</block>
   <block id="18bc3bf6223e289af8243b039cd8d702" category="list-text">'--since' 플래그를 사용하여 로그 보존 기간을 지정할 수 있습니다. 예: 'tridentctl send AutoSupport --since=1h' 이 정보는 Astra Trident와 함께 설치되는 트리덴트 자동 지원 컨테이너를 통해 수집 및 전송됩니다. 에서 컨테이너 이미지를 얻을 수 있습니다<block ref="1b00454f0ab35dcec2ee1a0061efc6e5" category="inline-link-rx"></block>.</block>
   <block id="53084cad3d11df800502598c11e2d10b" category="inline-link">EULA</block>
-  <block id="b9a52e8d1e9b14b8825c6ea01c0ce6d6" category="list-text">Trident AutoSupport는 개인 식별 정보(PII) 또는 개인 정보를 수집하거나 전송하지 않습니다. 이 제품은 와 함께 제공됩니다<block ref="173a360b412944768c2ab13e6c8fd1c7" category="inline-link-rx"></block> Trident 컨테이너 이미지 자체에는 적용되지 않습니다. 데이터 보안 및 신뢰에 대한 NetApp의 노력에 대해 자세히 알아볼 수 있습니다<block ref="8470ff535916bda3f4ea4723647a7135" category="inline-link-rx"></block>.</block>
   <block id="89f0f2832f60f480805faf638848c5b7" category="paragraph">Astra Trident에서 보낸 페이로드의 예는 다음과 같습니다.</block>
   <block id="d2ec86f126f845e79aff07e70bf89472" category="list-text">AutoSupport 메시지는 NetApp의 AutoSupport 엔드포인트로 전송됩니다. 개인 레지스트리를 사용하여 컨테이너 이미지를 저장하는 경우 '--image-registry' 플래그를 사용할 수 있습니다.</block>
   <block id="86c5a11fba83815412aec79f67f2d276" category="list-text">또한 설치 YAML 파일을 생성하여 프록시 URL을 구성할 수도 있습니다. 이는 트라이덴트ctl install --generate-custom-YAML을 이용해 YAML 파일을 생성하고 트리덴트 배포(trident-deployment)의 트리덴트 자동 지원 컨테이너에 대한 '--proxy-url' 주장을 추가하는 방식으로 가능하다.</block>
@@ -3063,4 +3057,10 @@
 자세한 내용은 을 참조하십시오 <block ref="139a59f2208174d2bf825b80dc580275" category="inline-link-macro-rx"></block>.</block>
   <block id="da4ba399089f873246a85825f8a3e1c3" category="list-text">이 작업이 완료되면 원하는 버전의 Trident 바이너리(이 예: 20.07)를 얻고 이를 사용하여 Astra Trident를 설치합니다. 에 대한 사용자 지정 YAML을 생성할 수 있습니다 <block ref="a251ebefafa5a5d36d857b7034f07489" category="inline-link-macro-rx"></block> 필요한 경우</block>
   <block id="9b19ca104aa9090dc59a99d64ff7f0ef" category="paragraph">Astra Trident 21.10을 실행하지 않는 경우 이전 릴리즈에 대한 설명서도 사용할 수 있습니다.</block>
+  <block id="190dbae19c88b1e68bf03f7783c5d5d1" category="list-text"><block ref="190dbae19c88b1e68bf03f7783c5d5d1" category="inline-link-rx"></block></block>
+  <block id="430c6bcb8516befc45fb8173b0ca4e1f" category="list-text"><block ref="430c6bcb8516befc45fb8173b0ca4e1f" category="inline-link-rx"></block></block>
+  <block id="d7d36869f2f4aa1eb99a10008e153f20" category="list-text"><block ref="d7d36869f2f4aa1eb99a10008e153f20" category="inline-link-rx"></block></block>
+  <block id="f8b52d963f246a75dc6c8b78c954a4fd" category="list-text"><block ref="f8b52d963f246a75dc6c8b78c954a4fd" category="inline-link-rx"></block></block>
+  <block id="b6780b7b2561935ff862fe7126cde751" category="list-text"><block ref="b6780b7b2561935ff862fe7126cde751" category="inline-link-rx"></block></block>
+  <block id="b9a641d903e611a87a5e68ac7fdb0b84" category="list-text">Trident AutoSupport는 개인 식별 정보(PII) 또는 개인 정보를 수집하거나 전송하지 않습니다. 에는 Trident 컨테이너 이미지 자체에 적용할 수 없는 가<block ref="173a360b412944768c2ab13e6c8fd1c7" category="inline-link-rx"></block> 포함되어 있습니다. 데이터 보안 및 신뢰에 대한 NetApp의 노력에 대해 더 자세히 알아볼 수<block ref="d3cc55401bc8303e01c6b0c43ba0733f" category="inline-link-rx"></block>있습니다.</block>
 </blocks>
